@@ -14,3 +14,13 @@ if level == "4":
   import level4
 if level == "5":
   import level5  
+if level == "6":
+  import level6
+if level == "7":
+  import level7
+if level == "8":
+  import level8
+if level == "9":
+  import level9
+if level == "10":
+  import level10
