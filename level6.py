@@ -1,1 +1,1 @@
-print("Level 6 selected. Good Luck!")
+print("Welcome to Level 6. Good Luck!")
