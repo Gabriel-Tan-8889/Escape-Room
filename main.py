@@ -1,12 +1,13 @@
 
 
-print("Hello there, here for a escape Room?")
-print("Well, you came to the right place!")
-tutorials = input("Do you need a tutorial? (yes/no)")
+print("Greetings, mere mortal. You\'re here for the escape room, aren't ya?")
+print("""Well, the Escape room is no easy task, let me tell ya. The first few levels are of average difficulty, but don\'t let that fool ya.""")
+print("The Blade of Deception, you\'re here for it. Legend has it that the Blade of Deception was crafted by the 3 cosmic warlords to defeat Evan, a corrupted being cursed with the power to destroy, but no one has seen him for centuries.")
+tutorials = input("You\'re given the chance to acquire the blade, but nobody said this would be easy. It may even cost your life, so are you in or out?' (in/out)")
 
-if tutorials == "yes":
+if tutorials == "in":
   import tutorial
-if tutorials == "no":  
+if tutorials == "out":  
   level = input("Seclect your level from 1 to 10: ")
 
   if level == "1":
