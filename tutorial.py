@@ -11,7 +11,7 @@ if opendoor == "yes":
                    print("Narrator: Congagulations. You have passed level 1.")
                    continuing = input("do you want to continue?")
                    if continuing == "yes":
-                     import level2
+                     import level1
                    if continuing == "no":
                      import main
 if opendoor == "no":
@@ -29,7 +29,7 @@ if choice == "open door":
                    print("Narrator: Congagulations. You have passed level 1.")
                    continuing = input("do you want to continue?")
                    if continuing == "yes":
-                     import level2
+                     import level1
                    if continuing == "no":
                      import main
     if opendoor == "no":
