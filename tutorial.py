@@ -8,7 +8,7 @@ if choice == "take key":
   print("Narrator: You take the key and unlock the door.")
   opendoor = input("Do you want to open the door?")
 if opendoor == "yes":
-                   print("Narrator: Congagulations. You have passed level 1.")
+                   print("Narrator: Congagulations. You have passed the tutorial.")
                    continuing = input("do you want to continue?")
                    if continuing == "yes":
                      import level1
@@ -26,7 +26,7 @@ if choice == "open door":
     print("Narrator: You take the key and unlock the door.")
     opendoor = input("Do you want to open the door?")
     if opendoor == "yes":
-                   print("Narrator: Congagulations. You have passed level 1.")
+                   print("Narrator: Congagulations. You have passed the turtorial.")
                    continuing = input("do you want to continue?")
                    if continuing == "yes":
                      import level1
