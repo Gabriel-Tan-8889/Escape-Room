@@ -1,4 +1,4 @@
-print("Tutorial selected. Good Luck!")
+print("System: Tutorial selected. Good Luck!")
 
 print("Narrator: You are in a dark room with a locked door.")
 print("Narrator: You see a key on the table.")

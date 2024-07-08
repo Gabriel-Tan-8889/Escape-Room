@@ -1,5 +1,5 @@
 import time
-print("Welcome to Level 3. Good Luck!")
+print("System: Welcome to Level 3. Good Luck!")
 
 print("You are a dective and you are trying to find a killer")
 print("You are in a room with a suspect, you have to find the killer")

@@ -1,5 +1,5 @@
 import random
-print("Level 1 selected. Good Luck!")
+print("System: Level 1 selected. Good Luck!")
 print("Speaker: Welcome to Wonka's escape room. Your goal is to escape the room. You will be given a series of choices. Choose wisely.")
 print("Speaker: Your goal to to send a chocloate bar through the TV to MR Wonka in the other room. Good Luck!")
 

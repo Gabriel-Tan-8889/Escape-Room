@@ -1,6 +1,6 @@
 import time
 
-print("Welcome to Level 2. Good Luck!")
+print("System: Welcome to Level 2. Good Luck!")
 
 print("System: Welcome to alien room part 1. In this room, you will have to answer a series of questions to pass. If you get one wrong, we will take your memory")
 
