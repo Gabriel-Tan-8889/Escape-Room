@@ -22,23 +22,22 @@ def check_ingredients(chosen_ingredients, correct_ingredients):
               True if all chosen ingredients are correct, False otherwise.
             """
             if len(chosen_ingredients) != len(correct_ingredients):
-                return False  # Number of ingredients doesn't match
+                return False  
             for i in range(len(correct_ingredients)):
                 if chosen_ingredients[i].lower() != correct_ingredients[i].lower():
-                    return False  # Ingredient at this index is incorrect
-            return True  # All ingredients are correct
+                    return False 
+            return True  
 
-        # Example usage:
-        # Define the ingredients for the puzzle
+
 ingredients = ["Chocolate", "Sugar", "Flour", "Milk"]
 correct_ingredients = ingredients
 
-        # Get the player's chosen ingredients (e.g., using input() or from a game interface)
+       
 chosen_ingredients = []
 for i in range(len(correct_ingredients)):
             chosen_ingredients.append(input(f"Choose ingredient {i+1}: "))
 
-        # Check if the chosen ingredients are correct
+       
 if check_ingredients(chosen_ingredients, correct_ingredients):
             print("Speaker: Correct! You chose all the right ingredients.")
             print("Speaker: A chocloate bar is made. All you need to do is to send it to MR Wonka.")

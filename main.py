@@ -1,8 +1,8 @@
 
-print("Owner: Greetings, mere mortal. I am the owner of this place. You\'re here for the escape room, aren't ya?")
-print("""Owner: Well, the Escape room is no easy task, let me tell ya. The first few levels are of average difficulty, but don\'t let that fool ya.""")
-print("Owner: The Blade of Deception, you\'re here for it. Legend has it that the Blade of Deception was crafted by the 3 cosmic warlords to defeat Evan, a corrupted being cursed with the power to destroy, but no one has seen him for centuries.")
-tutorials = input("Owner: You\'re given the chance to acquire the blade, but nobody said this would be easy. It may even cost your life, to prepare you, there is a pratice room, so do you need it? (in/out)")
+print("Isaiah: Greetings, mere mortal. I am the owner of this place. You\'re here for the escape room, aren't ya?")
+print("""Isaiah: Well, the Escape room is no easy task, let me tell ya. The first few levels are of average difficulty, but don\'t let that fool ya.""")
+print("Isaiah: The Blade of Deception, you\'re here for it. Legend has it that the Blade of Deception was crafted by the 3 cosmic warlords to defeat Evan, a corrupted being cursed with the power to destroy, but no one has seen him for centuries.")
+tutorials = input("Isaiah: You\'re given the chance to acquire the blade, but nobody said this would be easy. It may even cost your life, to prepare you, there is a pratice room, so do you need it? (in/out): ")
 
 if tutorials == "in":
   import tutorial
